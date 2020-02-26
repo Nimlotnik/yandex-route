@@ -183,6 +183,7 @@
                 }
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
+            "abandoned": true,
             "time": "2018-07-31T13:22:33+00:00"
         },
         {
@@ -233,6 +234,7 @@
                 "Guzzle",
                 "stream"
             ],
+            "abandoned": true,
             "time": "2014-10-12T19:18:40+00:00"
         },
         {
@@ -342,7 +344,7 @@
                 "oauth",
                 "security"
             ],
-            "time": "2016-07-12T22:15:00+00:00"
+            "time": "2018-02-14T22:37:14+00:00"
         },
         {
             "name": "marc1706/fast-image-size",
@@ -505,7 +507,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-13T16:22:52+00:00"
+            "time": "2018-04-04T21:48:54+00:00"
         },
         {
             "name": "patchwork/utf8",
@@ -1493,16 +1495,16 @@
         },
         {
             "name": "symfony/proxy-manager-bridge",
-            "version": "v2.8.46",
+            "version": "v2.8.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/proxy-manager-bridge.git",
-                "reference": "0fd7ab039e26a33c5e3d1e00642bc83412c0896a"
+                "reference": "40802595fea26ada845ed58124d8000a13dd4c6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/proxy-manager-bridge/zipball/0fd7ab039e26a33c5e3d1e00642bc83412c0896a",
-                "reference": "0fd7ab039e26a33c5e3d1e00642bc83412c0896a",
+                "url": "https://api.github.com/repos/symfony/proxy-manager-bridge/zipball/40802595fea26ada845ed58124d8000a13dd4c6f",
+                "reference": "40802595fea26ada845ed58124d8000a13dd4c6f",
                 "shasum": ""
             },
             "require": {
@@ -1543,7 +1545,7 @@
             ],
             "description": "Symfony ProxyManager Bridge",
             "homepage": "https://symfony.com",
-            "time": "2018-07-26T09:03:18+00:00"
+            "time": "2019-04-16T11:33:46+00:00"
         },
         {
             "name": "symfony/routing",
@@ -1871,6 +1873,7 @@
                 "code",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-code",
             "time": "2015-06-03T15:31:59+00:00"
         },
         {
@@ -1916,6 +1919,7 @@
                 "eventmanager",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-eventmanager",
             "time": "2015-06-03T15:32:01+00:00"
         },
         {
@@ -1972,6 +1976,7 @@
                 "stdlib",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-stdlib",
             "time": "2015-06-03T15:32:03+00:00"
         }
     ],
@@ -2084,12 +2089,12 @@
             "version": "1.1.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/facebook/php-webdriver.git",
+                "url": "https://github.com/php-webdriver/php-webdriver.git",
                 "reference": "b7186fb1bcfda956d237f59face250d06ef47253"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-webdriver/zipball/b7186fb1bcfda956d237f59face250d06ef47253",
+                "url": "https://api.github.com/repos/php-webdriver/php-webdriver/zipball/b7186fb1bcfda956d237f59face250d06ef47253",
                 "reference": "b7186fb1bcfda956d237f59face250d06ef47253",
                 "shasum": ""
             },
@@ -2123,6 +2128,7 @@
                 "selenium",
                 "webdriver"
             ],
+            "abandoned": "php-webdriver/webdriver",
             "time": "2016-08-10T00:44:08+00:00"
         },
         {
@@ -2293,7 +2299,8 @@
             "authors": [
                 {
                     "name": "Michiel Rook",
-                    "email": "mrook@php.net"
+                    "email": "mrook@php.net",
+                    "role": "Lead"
                 },
                 {
                     "name": "Phing Community",
@@ -2478,6 +2485,7 @@
                 "testing",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2015-03-29T14:23:04+00:00"
         },
         {
@@ -2854,6 +2862,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2015-10-02T06:51:40+00:00"
         },
         {
@@ -2891,9 +2900,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Pimple is a simple Dependency Injection Container for PHP 5.3",
