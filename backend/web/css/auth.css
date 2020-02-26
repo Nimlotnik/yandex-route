@@ -1,0 +1,61 @@
+.auth{
+	background-color:#f3f6fa;
+}
+.auth-form{
+	position:absolute;
+	width:500px;
+	height:450px;
+	top:50%;
+	left:50%;
+	margin-left:-250px;
+	margin-top:-225px;
+}
+.box-form{
+	border:1px solid #a6b4c6;
+	border-radius: 5px;
+}
+.auth-form h1{
+	text-align:center;
+	color:#8894a6;
+	font-size:24px;
+	font-family: Arial;
+	background: url('../images/bg_auth.jpg') repeat-x left top;
+	margin:0;
+	line-height: 68px;
+	border-bottom: 1px solid #a6b4c6;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.auth-input .form-group{
+	margin:38px;
+}
+.form-group .checkbox label, .forgot-pass{
+	color:#8894a6;
+	font-size:14px;
+	font-family: Arial;
+}
+.forgot-pass{
+	display:inline-block;
+	margin:10px 0;
+}
+.auth-input .form-group input{
+	color:#8894a6;
+	font-family: Arial;
+	font-size:18px;
+	background-color: #f3f6fa;
+	line-height: 48px;
+	height: 48px;
+	-webkit-box-shadow: inset 1px 1px 8px 0px rgba(155,169,186,1);
+	-moz-box-shadow: inset 1px 1px 8px 0px rgba(155,169,186,1);
+	box-shadow: inset 1px 1px 8px 0px rgba(155,169,186,1);
+}
+.auth-input .form-group button[type=submit]{
+	width:100%;
+	background:url('../images/bg_auth_button.jpg') repeat-x left top;
+	height:50px;
+	font-family: Arial;
+	font-size:18px;
+	color:#fff;
+	border:1px solid #0843a6;
+	border-radius: 5px;
+}

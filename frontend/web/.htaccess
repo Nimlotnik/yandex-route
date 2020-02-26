@@ -1,0 +1,45 @@
+Options +FollowSymLinks
+IndexIgnore */*
+
+RewriteEngine on
+
+#RewriteCond %{SERVER_PORT} !^443$
+#RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+# redirect с www на без www
+  RewriteCond %{HTTP_HOST} ^www\.(.*)$
+  RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php
+
+
+# NEWS
+#Redirect 301 /new/2 https://yandex.route34.ru/forum/index.php?/topic/8-servis-iandeks-taksi-dlia-voditelej-rabotaiuschikh-n/
+#Redirect 301 /new/3 https://yandex.route34.ru/forum/index.php?/topic/9-servis-iandeks-taksi-opoveschaet-voditelia-v-takso/
+#Redirect 301 /new/4 https://yandex.route34.ru/forum/index.php?/topic/10-v-volgograde-vkliuchaiut-tarif-%C2%ABkomfort%C2%BB/
+#Redirect 301 /new/5 https://yandex.route34.ru/forum/index.php?/topic/11-zapusk-novoj-edinoj-platformy-uber-i-iandeks-tak/
+#Redirect 301 /new/6 https://yandex.route34.ru/forum/index.php?/topic/12-izmenenie-tarifa-s-1-iiunia-tekuschego-goda/
+#Redirect 301 /new/7 https://yandex.route34.ru/forum/index.php?/topic/13-poslednie-izmeneniia-v-taksometre-iandeks-taksi/
+
+#FAQ
+#Redirect 301 /faq https://yandex.route34.ru/forum/index.php?/topic/6-faq-chasto-zadavaemye-voprosy/
+
+#ARTICLE
+#Redirect 301 /post/1 https://yandex.route34.ru/forum/index.php?/topic/18-kak-zarabotat-bolshe-deneg-v-iandeks-taksi-i-v-liu/
+#Redirect 301 /post/2 https://yandex.route34.ru/forum/index.php?/topic/17-v-kakoe-vremia-i-kogda-luchshe-rabotat-v-iandekstak/
+#Redirect 301 /post/8 https://yandex.route34.ru/forum/index.php?/topic/16-kakoj-avtomobil-luchshe-podkhodit-dlia-raboty-v-ta/
+#Redirect 301 /post/9 https://yandex.route34.ru/forum/index.php?/topic/15-kak-vliiaet-rejting-voditelia-na-poluchenie-zakaz/
+#Redirect 301 /post/11 https://yandex.route34.ru/forum/index.php?/topic/14-kak-proiskhodit-podkliuchenie-voditelej-k-servis/
+#Redirect 301 /post/14 https://yandex.route34.ru/forum/index.php?/topic/4-blokirovka-voditelej-servisom-iandeks-taksi/
+#Redirect 301 /post/16 https://yandex.route34.ru/forum/index.php?/topic/3-skolko-mozhno-zarabotat-rabotaia-v-iandeks-taks/
+
+#Redirect 301 /forum/index.php?/topic/17-v-kakoe-vremia-i-kogda-luchshe-rabotat-v-iandekstak/ https://yandex.route34.ru/forum/viewtopic.php?f=14&t=15
+
+
+
+#RewriteRule ^forum/(.*)$ http://forum.route34.ru/$1 [R=301,L]

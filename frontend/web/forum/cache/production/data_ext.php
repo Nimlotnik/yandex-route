@@ -1,0 +1,4 @@
+<?php exit; ?>
+1608706287
+822
+a:5:{s:18:"gothick/recaptcha2";a:4:{s:8:"ext_name";s:18:"gothick/recaptcha2";s:10:"ext_active";s:1:"1";s:9:"ext_state";s:4:"b:0;";s:8:"ext_path";s:23:"ext/gothick/recaptcha2/";}s:20:"javiexin/chgposttime";a:4:{s:8:"ext_name";s:20:"javiexin/chgposttime";s:10:"ext_active";s:1:"1";s:9:"ext_state";s:4:"b:0;";s:8:"ext_path";s:25:"ext/javiexin/chgposttime/";}s:13:"phpbb/viglink";a:4:{s:8:"ext_name";s:13:"phpbb/viglink";s:10:"ext_active";s:1:"1";s:9:"ext_state";s:4:"b:0;";s:8:"ext_path";s:18:"ext/phpbb/viglink/";}s:16:"shredder/sitemap";a:4:{s:8:"ext_name";s:16:"shredder/sitemap";s:10:"ext_active";s:1:"1";s:9:"ext_state";s:4:"b:0;";s:8:"ext_path";s:21:"ext/shredder/sitemap/";}s:9:"vse/abbc3";a:4:{s:8:"ext_name";s:9:"vse/abbc3";s:10:"ext_active";s:1:"1";s:9:"ext_state";s:4:"b:0;";s:8:"ext_path";s:14:"ext/vse/abbc3/";}}
